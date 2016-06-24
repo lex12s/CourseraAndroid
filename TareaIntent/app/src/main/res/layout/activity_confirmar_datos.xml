@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="lexgame.com.tareaintent.ConfirmarDatosActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ConfirmarDatos"
+        android:id="@+id/tituloConfirma"
+        android:textAlignment="center"
+        android:textSize="@dimen/TituloConfirmacion"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nombreCompletoConfirnar"
+        android:textSize="@dimen/DatosConfirmacion"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fechaCumpleañosConfirmar"
+        android:textSize="@dimen/DatosConfirmacion"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/telefonoConfirmar"
+        android:textSize="@dimen/DatosConfirmacion"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ConfirmarDatos"
+        android:id="@+id/eMailConfirmar"
+        android:textSize="@dimen/DatosConfirmacion"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ConfirmarDatos"
+        android:id="@+id/descripcionConfirmar"
+        android:textSize="@dimen/DatosConfirmacion"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/editarDatos"
+        android:id="@+id/editarDatos"
+        android:theme="@style/MyButton"/>
+
+</LinearLayout>

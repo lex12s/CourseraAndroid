@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Tarea - Intent</string>
+    <string name="nombreCompleto">Nombre Completo</string>
+    <string name="telefono">Telefono</string>
+    <string name="eMail">Email</string>
+    <string name="descripcion">Descripción</string>
+    <string name="Siguiente">Siguiente</string>
+    <string name="CompletarInformacion">Favor de completar los datos</string>
+    <string name="ConfirmarDatos">Confirmar Datos</string>
+    <string name="editarDatos">Editar Datos</string>
+    <string name="fechaNacimiento">Fecha de Nacimiento</string>
+</resources>
