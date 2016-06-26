@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cvMascota"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:id="@+id/fotoMascota"
+                android:layout_gravity="center"
+                android:src="@drawable/dog1"
+                android:adjustViewBounds="true"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/iconLikeMascota"
+                android:src="@drawable/icon_bone"
+                android:layout_below="@id/fotoMascota"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/nombreMascota"
+                android:text="nombre"
+                android:textSize="25dp"
+                android:layout_toRightOf="@id/iconLikeMascota"
+                android:layout_below="@id/fotoMascota"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/iconLikeGiveMascota"
+                android:src="@drawable/icon_bone_color"
+                android:layout_below="@id/fotoMascota"
+                android:layout_alignRight="@id/iconLikeMascota"
+                android:layout_alignEnd="@id/fotoMascota"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/likeCantidad"
+                android:text="5"
+                android:textSize="25dp"
+                android:layout_below="@id/fotoMascota"
+                android:layout_toLeftOf="@id/iconLikeGiveMascota"
+                />
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
